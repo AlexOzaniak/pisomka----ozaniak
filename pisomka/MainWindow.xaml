@@ -14,12 +14,12 @@
 
         </Grid.RowDefinitions>
         <Label FontSize="19" Background="Brown" Foreground="White" Content="Pridat novu jazdu" Margin="225,3,374,167" />
-        <ComboBox x:Name="cmb_Cars"  Margin="10,88,638,65" RenderTransformOrigin="0.494,0.277" SelectionChanged="cmb_Cars_SelectionChanged" />
-        <TextBox x:Name="konecneKm" HorizontalAlignment="Left"  FontSize="20" Foreground="Gray" Background="DarkBlue" TextAlignment="Center" TextWrapping="Wrap" Text="napr 1234km" VerticalAlignment="Top" Width="208" Height="68" Margin="429,86,0,0" GotKeyboardFocus="konecneKm_GotKeyboardFocus"/>
-        <Label Content="Auto" HorizontalAlignment="Left" Margin="32,54,0,0" VerticalAlignment="Top" Width="108"/>
-        <TextBlock x:Name="pociatKM" HorizontalAlignment="Left" Background="DarkBlue"  TextAlignment="Center" Foreground="White" Margin="217,88,0,0" TextWrapping="Wrap" Text="Select car to see km" VerticalAlignment="Top" Height="69" Width="124"/>
-        <Label Content="POCIATOCNE KM" HorizontalAlignment="Left" Margin="225,60,0,0" VerticalAlignment="Top" FontSize="10" Width="108"/>
-        <Label x:Name="konecneKM" Content="konecne km" HorizontalAlignment="Left" Margin="480,50,0,0" VerticalAlignment="Top" Width="106"/>
+        <ComboBox x:Name="cmb_Cars"  Margin="10,88,547,65" RenderTransformOrigin="0.494,0.277" SelectionChanged="cmb_Cars_SelectionChanged" />
+        <TextBox x:Name="konecneKm" HorizontalAlignment="Left"  FontSize="20" Foreground="Gray" Background="DarkBlue" TextAlignment="Center" TextWrapping="Wrap" Text="napr 1234km" VerticalAlignment="Top" Width="208" Height="68" Margin="457,89,0,0" GotKeyboardFocus="konecneKm_GotKeyboardFocus"/>
+        <Label Content="Auto" HorizontalAlignment="Left" Margin="78,56,0,0" VerticalAlignment="Top" Width="108"/>
+        <TextBlock x:Name="pociatKM" HorizontalAlignment="Left" Background="DarkBlue"  TextAlignment="Center" Foreground="White" Margin="276,88,0,0" TextWrapping="Wrap" Text="Select car to see km" VerticalAlignment="Top" Height="69" Width="124"/>
+        <Label Content="POCIATOCNE KM" HorizontalAlignment="Left" Margin="276,62,0,0" VerticalAlignment="Top" FontSize="10" Width="108"/>
+        <Label x:Name="konecneKM" Content="konecne km" HorizontalAlignment="Left" Margin="508,49,0,0" VerticalAlignment="Top" Width="106"/>
         <Button x:Name="addBtn" Content="ADD" Background="Green" HorizontalAlignment="Left" Margin="684,54,0,0" VerticalAlignment="Top" Height="131" Width="106" Click="addBtn_Click"/>
         <ListView x:Name="lvAuta" Margin="0,217,0,0" Grid.RowSpan="2">
         </ListView>
